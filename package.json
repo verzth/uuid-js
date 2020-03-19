@@ -1,0 +1,33 @@
+{
+  "name": "@verzth/uuid-js",
+  "version": "0.0.0-alpha01",
+  "description": "UUID v4 for Javascript based on RFC4122 version 4",
+  "main": "uuid.js",
+  "scripts": {
+    "build": "uglifyjs uuid.js -c -m -e -o uuid.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verzth/uuid-js.git"
+  },
+  "keywords": [
+    "uuid",
+    "uuidjs",
+    "uuidv4",
+    "uuid",
+    "javascript",
+    "javascript",
+    "uuid",
+    "js",
+    "uuid-js"
+  ],
+  "author": "Verzth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/verzth/uuid-js/issues"
+  },
+  "homepage": "https://github.com/verzth/uuid-js#readme",
+  "devDependencies": {
+    "uglifyjs": "^2.4.11"
+  }
+}
